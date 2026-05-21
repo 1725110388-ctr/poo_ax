@@ -21,4 +21,4 @@ class Libro:
         print(f"editorial {self.editorial}")
         print(f"año_publicado {self.año_publicado}")
         print(f"idioma {self.idioma}")
-caperusita=libro("Caperucita Roja", "Charles Perrault", true, true, false, 30, "cuentos infatiles", "Editorial Océano", 2000, "español")
+caperusita=Libro("Caperucita Roja", "Charles Perrault", true, true, false, 30, "cuentos infatiles", "Editorial Océano", 2000, "español")
